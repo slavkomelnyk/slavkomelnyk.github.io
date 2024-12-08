@@ -12,39 +12,43 @@ layout: default
       <p>{{site.about-author}}</p>
     </div>
   </header> <!-- End Header -->
+  <a href="{{site.baseurl}}/tags" style="text-align: center">
+    <button style="background-color: #5c9aeb; color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 12px;">
+      Tags
+    </button>
+  </a>
+
+
   <footer>
     <section class="contact">
       <h3 class="contact-title">Contact me</h3>
       <ul>
         {% if site.social-twitter %}
           <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" style="color: #74C0FC;" aria-hidden="true"></i></a></li>
-        {% else %}
-<!--          <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>-->
         {% endif %}
+
         {% if site.social-facebook %}
           <li><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><i class="fa fa-facebook" style="color: #0593ff;" aria-hidden="true"></i></a></li>
-        {% else %}
-<!--          <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>-->
         {% endif %}
+
         {% if site.social-github %}
           <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
-        {% else %}
-<!--          <li class="github"><a href="http://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>-->
         {% endif %}
+
         {% if site.social-linkedin %}
           <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin" style="color: #2ea4ff;"></i></a></li>
-        {% else %}
-<!--          <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>-->
         {% endif %}
+
         {% if site.social-email %}
           <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
-        {% else %}
-<!--          <li class="email"><a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>-->
         {% endif %}
+
         {% if site.social-pinterest %}
           <li class="email"><a href="https://uk.pinterest.com/{{site.social-pinterest}}"><i class="fa fa-pinterest" style="color: #ff5c5c;"></i></a></li>
-        {% else %}
-<!--          <li class="email"><a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>-->
+        {% endif %}
+
+        {% if site.social-tiktok %}
+          <li class="email"><a href="https://www.tiktok.com/@{{site.social-tiktok}}"><svg viewBox="0 0 64 64" width="15" height="15" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/></svg></svg></li>
         {% endif %}
       </ul>
     </section> <!-- End Section Contact -->
