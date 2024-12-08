@@ -18,8 +18,9 @@ social-pinterest: slavkomelnyk
 social-tiktok: # add your Tiktok handle
 
 
-discus-identifier: mr-brown # add your discus identifier
-
+discus-identifier: mr-brown # add your discus identifier or
+giscus-gh: slavkomelnyk/Propysy # a GitHub project name exemple username/project
+giscus-lang: uk # lang of chat en, uk, tr, pl, ru,
 # Tracker
 analytics: # Google Analytics
 
