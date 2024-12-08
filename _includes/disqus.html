@@ -1,19 +1,73 @@
-<!--<section class="comment-area">-->
-<!--  <div class="comment-wrapper">-->
-<!--    {% if site.discus-identifier %}-->
-<!--    <div id="disqus_thread" class="article-comments"></div>-->
-<!--    <script>-->
-<!--      (function() {-->
-<!--          var d = document, s = d.createElement('script');-->
-<!--          s.src = '//{{ site.discus-identifier }}.disqus.com/embed.js';-->
-<!--          s.setAttribute('data-timestamp', +new Date());-->
-<!--          (d.head || d.body).appendChild(s);-->
-<!--      })();-->
-<!--    </script>-->
-<!--    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>-->
-<!--    {% endif %}-->
-<!--  </div>-->
-<!--</section> &lt;!&ndash; End Comment Area &ndash;&gt;-->
+<style>
+        /* Hide the <section> element by default */
+        #hiddenText {
+            display: none;
+        }
+
+        /* Button Styling */
+        button {
+            background-color: #4CAF50; /* Green background */
+            color: white;              /* White text */
+            border: none;              /* No border */
+            padding: 10px 20px;        /* Padding for the button */
+            text-align: center;        /* Center the text */
+            text-decoration: none;     /* Remove underline */
+            display: inline-block;     /* Make it inline-block for layout */
+            font-size: 16px;           /* Font size */
+            cursor: pointer;          /* Pointer cursor on hover */
+            border-radius: 5px;        /* Rounded corners */
+            transition: background-color 0.3s ease; /* Smooth background color transition */
+        }
+
+        /* Button Hover Effect */
+        button:hover {
+            background-color: #45a049; /* Darker green when hovered */
+        }
+
+        /* Button Active Effect (when clicked) */
+        button:active {
+            background-color: #3e8e41; /* Even darker green when clicked */
+        }
+</style>
+
+<button style="display: none" id="toggleButton" class="hidden" onclick="toggleText()">Show Ads and Disqus Comments</button>
+
+ <section id="hiddenText" class="comment-area">
+        <div class="comment-wrapper">
+            {% if site.discus-identifier %}
+            <div id="disqus_thread" class="article-comments"></div>
+            <script>
+              (function() {
+                  var d = document, s = d.createElement('script');
+                  s.src = '//{{ site.discus-identifier }}.disqus.com/embed.js';
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            {% endif %}
+        </div>
+</section> <!-- End Comment Area -->
+
+<script>
+        // JavaScript function to toggle the visibility and button text
+        function toggleText() {
+            var textElement = document.getElementById('hiddenText');
+            var button = document.getElementById('toggleButton');
+
+            // Check the current display property of the element
+            var currentDisplay = window.getComputedStyle(textElement).display;
+
+            // Toggle visibility based on current state
+            if (currentDisplay === 'none') {
+                textElement.style.display = 'block';
+                button.textContent = 'Close Ads and Disqus Comments'; // Change button text when visible
+            } else {
+                textElement.style.display = 'none';
+                button.textContent = 'Show Ads and Disqus Comments'; // Change button text when hidden
+            }
+        }
+ </script>
 
 
 <script src="https://giscus.app/client.js"
