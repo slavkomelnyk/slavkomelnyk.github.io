@@ -18,6 +18,13 @@ layout: main
       <header class="header-page">
         <h1 class="page-title">{{page.title}}</h1>
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+
+        <a href="{{ "/assets/img/download/" | prepend: site.baseurl | append : page.download}}" style="text-align: center" download>
+          <button style="background-color: #5c9aeb; color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 12px;">
+            Download
+          </button>
+        </a>
+
       </header>
       {{content | markdownify}}
       <div class="page-footer">
