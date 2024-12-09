@@ -1,18 +1,33 @@
 ---
-layout: page
+layout: main
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Прописи для фанатів Minecraft!️
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+>У мене є молодший брат, який абсолютно не любить писати. Як і багато дітей, він не хоче витрачати час на нудні прописні букви. Я добре пам’ятаю, як мені також не було цікаво виконувати такі завдання в дитинстві, і завжди хотілося чогось більш захоплюючого.
+>
+> -- Славко Мельник, 11 років
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+**А що, якби пишучи прописи, можна було одночасно відкривати захоплюючі секрети та цікаві факти про Minecraft?**
+
+Я створив унікальні прописи для дітей, які обожнюють Minecraft. 
+Завдання в них не просто допомагають тренувати письмо, але й знайомлять із захопливими моментами цієї гри, що робить процес навчання веселим і цікавим!
+
+## Що чекає на вашу дитину:
+
+- **Цікаві факти** та **секрети гри**, що дозволяють дізнатися нове під час письма.
+- **Розвиток навичок письма** і цікаві завдання!
 
 
-[jekyll-organization]: https://github.com/jekyll
+
+> Прописи круті! Тепер я не лише пишу, а й дізнаюся про різні цікаві штуки з Minecraft! Це набагато веселіше, ніж звичайні прописи у школі!
+>
+> -- Михайло Мельник, 8 років
+
+
+
+**Тепер письмо стає не лише корисним, а й веселим!**
+
+
