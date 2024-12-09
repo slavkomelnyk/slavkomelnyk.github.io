@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Як приручити коня"
+date: 2024-12-03
+description: Animals №2 
+img:  2_hourse.png
+tags: [Animals]
+download: animals/2_hourse.pdf
+---
+
+Як приручити коня
+
+
+
+
+
+
+
+
+## Завдання на сьогодні:
+<img src= "/assets/img/2_hourse.png" alt="Прописи №2 Завдання" style="border: 2px solid grey;">
+
+**Коли виконаєш завдання, напиши про це в коментарях!**  

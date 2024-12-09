@@ -5,7 +5,7 @@ date: 2024-12-09
 description: Прописи серія Badges. Пиши, виконуй завдання і збирай відзнаки, відкриваючи цікаві факти про Minecraft! 
 img:  badges2.webp
 tags: [Badges]
-download: 2 badges.pdf
+download: badges/2 badges.pdf
 ---
 
 
