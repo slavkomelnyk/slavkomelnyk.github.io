@@ -17,6 +17,7 @@ social-email: # add your Email address
 social-pinterest: slavkomelnyk
 social-tiktok: # add your Tiktok handle
 
+future: true
 
 discus-identifier: mr-brown # add your discus identifier or
 giscus-gh: slavkomelnyk/Propysy # a GitHub project name exemple username/project
