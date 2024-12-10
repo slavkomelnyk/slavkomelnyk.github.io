@@ -6,6 +6,7 @@ description: Animals №1
 img:  wolf.png
 tags: [Animals]
 download: animals/1_wolf.pdf
+pin: 927741591994374550
 ---
 
 ## Нова серія прописів: Тварини в Minecraft! 🐾✨
