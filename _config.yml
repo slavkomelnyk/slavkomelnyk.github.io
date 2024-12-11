@@ -4,6 +4,7 @@ permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
+keywords: propysy,прописи,Minecraft,Майнкрафт,propysy Minecraft,прописи Майнкрафт,
 
 # Author Settings
 author: Slavko Melnyk # add your name
