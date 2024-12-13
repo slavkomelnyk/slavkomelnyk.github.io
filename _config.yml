@@ -4,6 +4,7 @@ permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
+keywords: 
 
 # Author Settings
 author: Slavko Melnyk # add your name
@@ -26,6 +27,7 @@ giscus-lang: uk # lang of chat en, uk, tr, pl, ru,
 analytics: # Google Analytics
 
 # Build Settings
+
 markdown: kramdown
 plugins:
   - jekyll-sitemap
