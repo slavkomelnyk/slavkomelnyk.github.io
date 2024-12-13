@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Серія Badges #3 Ламінарія"
-date: 2024-12-09
+date: 2024-12-11
 description: Прописи серія Badges. Пиши, виконуй завдання і збирай відзнаки, відкриваючи цікаві факти про Minecraft! 
 img:  badges3.png
 post-preview: badges3.png
