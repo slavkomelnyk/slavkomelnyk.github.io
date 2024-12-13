@@ -4,6 +4,7 @@ title: "Серія Badges #2 Ламінарія"
 date: 2024-12-09
 description: Прописи серія Badges. Пиши, виконуй завдання і збирай відзнаки, відкриваючи цікаві факти про Minecraft! 
 img:  badges2.webp
+post-preview: badges2.png
 tags: [Badges]
 download: badges/2 badges.pdf
 ---
@@ -28,6 +29,3 @@ download: badges/2 badges.pdf
 **Не пропусти шанс додати нові цікаві факти про Minecraft до своїх знань і отримати відзнаки за виконання завдань. Пишемо і збираємо відзнаки разом!** ️
 
 ## Завдання на сьогодні:
-<img src= "/assets/img/badges2full.png" alt="Прописи №2 Завдання" style="border: 2px solid grey;">
-
-**Коли виконаєш завдання, напиши про це в коментарях!**  

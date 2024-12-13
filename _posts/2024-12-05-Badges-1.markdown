@@ -4,6 +4,7 @@ title: "Серія Badges #1 Про Майнкрафт."
 date: 2024-12-05
 description: Прописи серія Badges. Пиши, виконуй завдання і збирай відзнаки, відкриваючи цікаві факти про Minecraft!
 img:  badges1.webp
+post-preview: badges1.png
 tags: [Badges]
 download: badges/1 badges.pdf
 ---
@@ -17,6 +18,4 @@ download: badges/1 badges.pdf
 **За кожне виконане завдання ти отримуєш відзнаку! Чим більше завдань виконуєш, тим більше відзнак збираєш!** ✨
 
 ## Завдання на сьогодні:
-<img src= "/assets/img/badges1full.png" alt="Прописи №1 Завдання" style="border: 2px solid grey;">
 
-**Коли виконаєш завдання, напиши про це в коментарях!**_
